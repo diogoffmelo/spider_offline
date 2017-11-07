@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+import json
+import re
+import bs4
 
 URL = ('http://www4.tjce.jus.br/sproc2/paginas/resconprocpartenova.asp?'
        'optNomeParte=2&TXT_NOMEPARTE={}&TXT_NOMEUNIDES=&TXT_CODUNIDES'
@@ -88,3 +90,24 @@ class SprocCeSpider(scrapy.Spider):
         }
 
         yield pagina_off_line
+
+
+class SprocCeExtracao(scrapy.Spider):
+    name = 'sproc_ce_extracao'
+
+    def __init__(self, url='', *args, **kwargs):
+        if not url:
+            raise Exception('Argumento invalido')
+
+        super(SprocCeExtracao, self).__init__(*args, **kwargs)
+        self.start_urls = [url]
+
+    def parse(self, response):
+        items = json.loads(response.body_as_unicode())
+        items = [item for item in items if item['tipo'] == 'pagina_processo']
+        for selector in map(lambda x: scrapy.Selector(text=x['conteudo']), items):
+            npu = selector.xpath('/html/body/table[3]/tr[2]/td/font[2]/b').extract_first()
+            npu_regex = '\d{4}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}'
+            yield {
+                'npu': ''.join(re.findall(npu_regex, npu))
+            }
