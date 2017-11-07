@@ -105,9 +105,11 @@ class SprocCeExtracao(scrapy.Spider):
     def parse(self, response):
         items = json.loads(response.body_as_unicode())
         items = [item for item in items if item['tipo'] == 'pagina_processo']
-        for selector in map(lambda x: scrapy.Selector(text=x['conteudo']), items):
+        for item in items:
+            selector = scrapy.Selector(text=item['conteudo'])
             npu = selector.xpath('/html/body/table[3]/tr[2]/td/font[2]/b').extract_first()
             npu_regex = '\d{4}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}'
             yield {
-                'npu': ''.join(re.findall(npu_regex, npu))
+                'npu': ''.join(re.findall(npu_regex, npu)),
+                'link_origem': item['link_originario'],
             }

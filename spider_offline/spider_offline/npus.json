@@ -1,15 +1,15 @@
 [
-{"npu": "6336-78.2016.8.06.0112"},
-{"npu": "1156-78.2016.8.06.0099"},
-{"npu": "5254-85.2011.8.06.0143"},
-{"npu": ""},
-{"npu": "6980-27.2014.8.06.0099"},
-{"npu": "1046-05.2005.8.06.0164"},
-{"npu": "4754-20.2008.8.06.0112"},
-{"npu": "3126-67.2008.8.06.0001"},
-{"npu": "2287-09.2002.8.06.0000"},
-{"npu": "2287-09.2002.8.06.0000"},
-{"npu": "2287-09.2002.8.06.0000"},
-{"npu": "9094-62.2002.8.06.0000"},
-{"npu": "6138-10.2001.8.06.0000"}
+{"npu": "6336-78.2016.8.06.0112", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=56336-78.2016.8.06.0112&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "1156-78.2016.8.06.0099", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=11156-78.2016.8.06.0099&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "5254-85.2011.8.06.0143", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=5254-85.2011.8.06.0143&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=493-23.2016.8.06.0147&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "6980-27.2014.8.06.0099", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=6980-27.2014.8.06.0099&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "1046-05.2005.8.06.0164", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=1046-05.2005.8.06.0164&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "4754-20.2008.8.06.0112", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=4754-20.2008.8.06.0112&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "3126-67.2008.8.06.0001", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=123126-67.2008.8.06.0001&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "2287-09.2002.8.06.0000", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=32287-09.2002.8.06.0000&TXT_PARAM2=2&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "2287-09.2002.8.06.0000", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=32287-09.2002.8.06.0000&TXT_PARAM2=1&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "2287-09.2002.8.06.0000", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=32287-09.2002.8.06.0000&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "9094-62.2002.8.06.0000", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=9094-62.2002.8.06.0000&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="},
+{"npu": "6138-10.2001.8.06.0000", "link_origem": "http://www4.tjce.jus.br/sproc2/paginas/ResConProc02.asp?TXT_PARAM1=6138-10.2001.8.06.0000&TXT_PARAM2=0&CMB_NUMMOV=99&TXT_SOURCE=ResConProcParte&CHK_PARTE="}
 ]
